@@ -19,11 +19,18 @@ a:hover{
     margin: 0;
 }
 
+
+
+
+
 body
 {
     font: 12px Arial, Helvetica, sans-serif;
     line-height: 20px;
-    background: linear-gradient(to bottom, rgba(173, 172, 172, 0.918), black)
+    background: url(images/Fondo2.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
 }
 /*url(images/bg.jpg)*/
 
@@ -38,13 +45,6 @@ body
     padding-top: 10px;
 }
 
-#header{
-    background: url(images/nba-background.jpg) ;
-    background-size: 1900px 1700px;
-    background-repeat: no-repeat;
-    background-position: top;
-    width: 100%;
-}
 
 
 #logo{
@@ -60,7 +60,7 @@ body
     text-decoration: none;
     font-style: italic;
     font-size: 70px;
-    color: #00456e;
+    color: #fff;
     font-weight: normal;
     padding-left: 20px;
 }
