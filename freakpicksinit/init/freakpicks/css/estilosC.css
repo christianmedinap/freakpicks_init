@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/Fondo2.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+	}
+
+.Login-box {
+	width: 350px;
+	height: 520px;
+	background: #000;
+	color:#fff;
+	top: 52%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.Login-box .avatar{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.Login-box h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+
+
+.Login-box label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.Login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Login-box input[type="text"],
+.Login-box input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.Login-box input[type="button"] {
+	border: none;
+	background: #00eaff;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.Login-box a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.Login-box a:hover {
+	color:#fff;
+
+}
+
