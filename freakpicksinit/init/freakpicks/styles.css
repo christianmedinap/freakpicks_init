@@ -1,4 +1,7 @@
+/*Mediante las estructuracion no responsive de imagenes prediseñadas, se establece la jerarquia de posiciones con 
+los atributos de estilo reservados como lo son: float, pading, margin y border*/
 
+/*la gerarquizacion en css cumple su porposito al dar prioridad a esa etiqueta dentro de otra*/
 
 a{
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +15,7 @@ a:hover{
     text-decoration: underline;
     color: #000000;
 }
-
+/*  * Es un selecctor universal  */
 *
 {
     border: 0;
@@ -32,8 +35,8 @@ body
     font-family: sans-serif;
     height: 100vh;
 }
-/*url(images/bg.jpg)*/
 
+/*Se identifica la primera clase, no deben de repetirse, so para espacios unicos*/
 #mainbg{
     width: 1016px;
     margin: 0 auto;
@@ -44,8 +47,6 @@ body
     width: 1016px;
     padding-top: 10px;
 }
-
-
 
 #logo{
     width: 1016px;
@@ -69,7 +70,7 @@ body
     font-size: 30px;
     padding-left: 90px;
 }
-
+/*Los botones y estructura de la pagina conlleva imagenes adapatadas.*/
 #buttons{
     width: 1016px;
     height: 57px;
