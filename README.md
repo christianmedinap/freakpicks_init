@@ -1,2 +1,2 @@
 # freakpicks_init
-Pagina referentes a mundo deportivo
+sitio web referente al mundo deportivo; noticias y predicciones del mercado.
