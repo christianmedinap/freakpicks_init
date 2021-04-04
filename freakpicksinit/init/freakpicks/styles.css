@@ -22,12 +22,10 @@ a:hover{
 body
 {
     font: 12px Arial, Helvetica, sans-serif;
-    color: #000000;
     line-height: 20px;
-    background: black url(images/bg.jpg);
-    background-repeat:repeat-x;
-    background-position: top;
+    background: linear-gradient(to bottom, rgba(173, 172, 172, 0.918), black)
 }
+/*url(images/bg.jpg)*/
 
 #mainbg{
     width: 1016px;
@@ -42,7 +40,7 @@ body
 
 #header{
     background: url(images/nba-background.jpg) ;
-    background-size: 1800px 1700px;
+    background-size: 1900px 1700px;
     background-repeat: no-repeat;
     background-position: top;
     width: 100%;
@@ -53,24 +51,23 @@ body
     width: 1016px;
     margin: 0 auto;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 40px;
     height: 100px;
-    color: black;
-    font-size: 10px;
 }
 
 #logo a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-style: italic;
-    font-size: 16px;
-    color: #ffffff;
+    font-size: 70px;
+    color: #00456e;
     font-weight: normal;
     padding-left: 20px;
 }
 
 #logo H2 a{
-    font-size: 10px;
+    font-size: 30px;
+    padding-left: 90px;
 }
 
 #buttons{
@@ -87,13 +84,17 @@ body
     padding-left: 0px;
 }
 
+img.inlinemiddle{
+    vertical-align: middle;
+}
+
 #buttons li {
     display: inline;
 }
 
 #buttons a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     text-align: center;
     text-decoration: none;
@@ -102,14 +103,16 @@ body
     float: left;
     width: 20%;
     height: 37px;
-    padding-top: 19px;
+    padding-top: 6px;
     margin-top: 1px;
 }
 
 #buttons a:hover, .active{
+   padding-bottom: 10px;
    background: url(images/menu_h.png);
    background-repeat: no-repeat;
    background-position: center;
+
 }
 
 #content{
