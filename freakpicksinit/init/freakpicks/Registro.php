@@ -8,7 +8,7 @@
 
 
 	<div class="Login-box">
-		<img class="avatar" src="img/Logo.png" alt="Logo">
+		<img class="avatar" src="images/Logo2.png" alt="Logo">
 		<h1>Bienvenido a Freakpicks</h1>
 
 		<form method="POST" action="">
